@@ -1,0 +1,56 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR 
+Relation:     bank-details
+Instances:    11162
+Attributes:   17
+              age
+              job
+              marital
+              education
+              default
+              balance
+              housing
+              loan
+              contact
+              day
+              month
+              duration
+              campaign
+              pdays
+              previous
+              poutcome
+              deposit
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: no
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5873               52.616  %
+Incorrectly Classified Instances      5289               47.384  %
+Kappa statistic                          0     
+Mean absolute error                      0.4986
+Root mean squared error                  0.4993
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances            11162     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.474     yes
+                 1.000    1.000    0.526      1.000    0.690      ?        0.500     0.526     no
+Weighted Avg.    0.526    0.526    ?          0.526    ?          ?        0.500     0.501     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    0 5289 |    a = yes
+    0 5873 |    b = no
+
